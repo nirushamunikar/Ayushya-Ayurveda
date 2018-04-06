@@ -1,0 +1,64 @@
+.owner {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-gap: 2rem;
+  padding: 2rem;
+  background: $primary-color-owner;
+  &__image {
+    &--1 {
+      width: 40rem;
+    }
+  }
+  &__about {
+    grid-column: 2;
+    &--name {
+      @include sectionHeading;
+      margin: 0 0 1rem 0;
+    }
+    &--detail {
+      font-size: 1.6rem;
+      word-spacing: .8rem;
+      color: #3a3a3a;
+      font-family: "Roboto", "serif";
+    }
+  }
+}
+
+@media screen and(max-width: 930px) {
+  .owner {
+    &__about {
+      &--name {
+        font-size: 2rem;
+      }
+      &--detail{
+        font-size: 1.3rem;
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 765px) {
+  .owner {
+    display: block;
+    background: $primary-color-team;
+    &__image {
+      display: flex;
+      &--1 {
+        width: 80%;
+        margin: 1rem auto;
+      }
+    }
+    &__about {
+      grid-column: 2;
+      &--name {
+        @include sectionHeading;
+        text-align: center;
+      }
+      &--detail {
+        font-size: 1.6rem;
+        word-spacing: .8rem;
+        font-family: "ABeeZee", "SansSerif";
+      }
+    }
+  }
+}

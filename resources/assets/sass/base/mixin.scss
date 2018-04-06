@@ -1,0 +1,48 @@
+$text-color-primary: #fafafa;
+
+@mixin boxDesign {
+  background: #fff;
+  box-shadow: 0 0.2px 1.1rem -0.3rem #31669a;
+  padding: 4rem;
+  border-radius: 3px;
+}
+
+@mixin sectionHeading {
+  width: 100%;
+  font-family: 'Lobster','serif';
+  display: block;
+  font-size:2rem;
+  letter-spacing:.12rem;
+  word-spacing: .4rem;
+  color: $text-color-primary;
+  text-transform: capitalize;
+}
+
+@mixin heading {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "ABeeZee", "serif";
+  font-size: 2rem;
+  margin: 3rem 0 3rem 0;
+}
+
+@mixin servicesHeading {
+  text-align: left;
+  font-family: "ABeeZee", "serif";
+  font-size: 1.6rem;
+  text-decoration: none;
+  margin: 3rem;
+}
+
+@mixin footerHeading {
+  text-align: left;
+  font-family: "ABeeZee", "serif";
+  font-size: 1.8rem;
+  margin: 3rem;
+}
+
+@mixin listStyle {
+  font-size: 1.6rem;
+  margin-top: 1rem;
+  font-family: "ABeeZee", "serif";
+}

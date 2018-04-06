@@ -1,0 +1,40 @@
+.assureTreatment {
+  display: block;
+  background: $primary-color-quality;
+  padding: 5rem 0 5rem 0;
+  width: 100%;
+  @include boxDesign;
+
+  &__heading {
+    @include sectionHeading;
+    text-align: center;
+    margin: 0 0 6rem 0;
+  }
+}
+#exTab .tab-content {
+  border-top: 3px solid #29507b;
+  border-bottom: 2px solid #29507b;
+  color: #333;
+  padding: 5px 15px;
+  padding: 30px;
+  font-size: 14px;
+  overflow: hidden;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#exTab {
+  width: 100%;
+}
+.treatmentSpectrum {
+  display: block;
+  background: $primary-color-quality;
+  padding: 5rem 0 5rem 0;
+  width:100%;
+  @include boxDesign;
+
+  &__headinggStyle {
+    @include sectionHeading;
+    text-align: center;
+    margin: 0 0 6rem 0;
+  }
+}

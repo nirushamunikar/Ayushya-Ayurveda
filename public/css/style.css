@@ -1,0 +1,719 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  background: #f9f9f9;
+}
+
+/*NAVBAR*/
+.topbar {
+  background: #29507b;
+  padding: 0px;
+  text-align: center;
+  color: #fff;
+}
+
+.topbar p {
+  padding-top: 7px;
+}
+
+.topbar a {
+  color: #fff;
+}
+
+.logo_section {
+  /*background: #98FB98;*/
+  /*background: #66c8cb;*/
+}
+
+.logo {
+  float: left;
+}
+
+.pancha_appoint {
+  display: block;
+}
+
+.panchakarma p {
+  background: #29507b;
+  float: left;
+  color: #fff;
+  padding: 6px;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 2px;
+}
+
+.appointment a {
+  background: #29507b;
+  float: left;
+  color: #fff;
+  padding: 6px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.navbar-default {
+  background: #fff;
+  box-shadow: 0px 0.2px 11px -2px #31669a;
+}
+
+ul li a {
+  color: #3f3f3f !important;
+}
+
+ul li > a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background: #29507b;
+  visibility: hidden;
+  border-radius: 5px;
+  transform: scaleX(0);
+  transition: 0.1s linear;
+}
+
+ul li > a:hover:before,
+ul li > a:focus:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+/*below 768px yo chai remove grne*/
+/*.collapse ul li a{
+	background: none;
+}
+.collapse ul li:hover >ul {
+    display: block;
+    background: #fff;
+}*/
+.collapse ul ul ul {
+  top: 0;
+  left: 100%;
+}
+
+.collapse ul ul li:hover > ul {
+  display: block;
+  font-size: 0.9em;
+  /*padding: 10px;*/
+}
+
+.glyphicon {
+  font-size: 0.6em;
+}
+
+.dropdown-menu li > a:before {
+  transform: scaleX(0);
+  transition: .0s linear;
+  height: 4px;
+  margin:-5px 0px;
+}
+
+.dropdown-menu li > a:hover,
+.dropdown-menu li > a:focus {
+  /*background: #eee;*/
+  color: #365899 !important;
+}
+
+/*ABOUTUS*/
+.introduction {
+  width: 100%;
+  padding: 10px;
+}
+
+h2 {
+  color: #29507b;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  padding: 28px 40px;
+  text-align: center;
+}
+
+.team {
+  width: 100%;
+  background: red;
+}
+
+.team_shadow {
+  background: #fff;
+  /* box-shadow: 0px 0.2px 11px -3px #31669a;*/
+  padding: 20px 30px;
+  width: 31%;
+  height: 350px;
+  margin:15px;
+  float: left;
+}
+
+.team_shadow_right {
+  background: #fff;
+  box-shadow: 0px 0.2px 11px -3px #31669a;
+  padding: 20px 30px;
+  width: 31% ;
+  height: 350px;
+  margin:15px;
+  float:left;
+}
+
+
+.font {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.ts_justify {
+  text-align: justify;
+}
+
+.ts_suresh {
+  padding: 30px;
+  background: #29507b;
+  color: #fff;
+  margin: 50px 0px;
+  font-size: 15px;
+}
+
+.assurance {
+  padding: 10px;
+}
+
+.tab {
+  width: 100%;
+}
+
+hr {
+  height: 2px;
+  background-color: #29507b;
+}
+
+.modulefifth h2 {
+  position: absolute;
+  bottom: 0;
+  right: 0%;
+  top: 0%;
+  background: rgba(0, 0, 102, 0.7);
+  padding: 40px;
+  color: white;
+  margin: 0;
+  font: 16px Sans-Serif;
+  overflow: visible;
+  text-align: left;
+}
+
+.modulefifth {
+
+  position: relative;
+  height: 460px;
+  margin: 0 auto;
+  overflow: hidden;
+  width: 100%;
+  background: red;
+}
+
+.modulefifth1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.modulefifth1 img {
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+.modulefifth:hover .modulefifth1 img {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
+
+.note {
+  background: #fff;
+  color: #29507b;
+  float: right;
+  border-radius: 30px 0px 30px 0px;
+  padding: 20px;
+  margin-right: -16px;
+  height: auto;
+}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+/*TARIFF*/
+/*.tariff{
+  width: 100%;
+  background: red;
+  margin-left: -1.8%;
+}*/
+.check1 {
+  /*background: green;*/
+  margin-top:8rem;
+}
+
+.check2 {
+  background: #fff;
+  padding: 0px 20px 20px 20px;
+
+}
+
+.check3 {
+  background: yellow;
+  margin-left: -1.7%;
+}
+
+.check4 {
+  background: orange;
+  width: 100%;
+  margin-left: -1.7%;
+}
+
+table.table1 {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+  font-size: 13px;
+  margin-bottom: 30px;
+}
+
+table.table1 caption {
+  font-size: 1.5em;
+  margin: .5em 0 .75em;
+}
+
+table.table1 tr {
+  background: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: .35em;
+}
+
+table.table1 th,
+table.table1 td {
+  padding: .625em;
+  text-align: center;
+}
+
+table.table1 th {
+  font-size: .85em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px) {
+  table.table1 {
+    border: 0;
+  }
+
+  table.table1 caption {
+    font-size: 1.3em;
+  }
+
+  table.table1 thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+
+  table.table1 tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: .625em;
+  }
+
+  table.table1 td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: .8em;
+    text-align: right;
+  }
+
+  table.table1 td:before {
+    /*
+    * aria-label has no advantage, it won't be read inside a table
+    content: attr(aria-label);
+    */
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  table.table1 td:last-child {
+    border-bottom: 0;
+  }
+}
+
+/*Responsive table*/
+table.table2 {
+  width: 100%;
+  table-layout: auto;
+  border-collapse: collapse;
+  background: #efefef;
+  color: #333;
+  padding: 10px;
+  font-size: 13px;
+  margin-bottom: 30px;
+}
+
+table.table2 td, th {
+  padding: 8px;
+  text-align: left;
+}
+
+/* Zebra striping */
+table.table2 tr:nth-of-type(odd) {
+  background: #f9f9f9;
+}
+
+table.table2 th {
+  background: #efefef;
+  font-weight: bold;
+  color: #29507b;
+  padding:8px;
+}
+
+table.table2 h1 a {
+  text-decoration: none;
+  color: black;
+}
+
+.new_table {
+  width: 100%;
+
+}
+
+.sideinfo {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  background-color: #efefef;
+  color: #333;
+  padding: 15px;
+}
+
+.siheading {
+  background: #29507b;
+  color: #fff;
+  width: 100%;
+  padding: 8px 20px;
+  font-size: 15px;
+  margin-top: -15px;
+}
+
+.sipara {
+  padding: 10px 15px;
+  margin-bottom: 30px;
+  list-style-type:none;
+  font-size: 0.95em;
+}
+.sipara li{
+  padding:4px 3px;
+}
+.sipara li a:hover{
+  background: #ffff00;
+}
+@media only screen and (min-width: 582px) {
+  #new_table88 {
+    display: none;
+  }
+
+  #new_table99 {
+    display: none;
+  }
+}
+
+/*tablescroll*/
+@media only screen and (max-width: 581px) {
+  /*640*/
+  #new_table8 {
+    display: none;
+  }
+
+  #new_table9 {
+    display: none;
+  }
+
+  .rt th,
+  .rt td {
+    margin: 0;
+    padding: 0.4166em;
+    vertical-align: top;
+    border: 1px solid #babcbf;
+    background: #fff;
+  }
+
+  #rt1 {
+    display: block;
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+    table-layout: auto;
+  }
+
+  #rt1 thead {
+    display: block;
+    float: left;
+  }
+
+  #rt1 tbody {
+    display: block;
+    width: auto;
+    position: relative;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  #rt1 thead tr {
+    display: block;
+  }
+
+  #rt1 th {
+    display: block;
+  }
+
+  #rt1 tbody tr {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  #rt1 td {
+    display: block;
+    min-height: 1.25em;
+  }
+
+  /* sort out borders */
+  .rt th {
+    text-align: left;
+    background: #efefef;
+  }
+
+  .rt th {
+    border-bottom: 0;
+  }
+
+  .rt td {
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+  }
+
+  .rt tbody tr {
+    border-right: 1px solid #efefef;
+  }
+
+  .rt th:last-child,
+  .rt td:last-child {
+    border-bottom: 1px solid #efefef;
+  }
+
+  .cf th {
+    font-size: 13px;
+    font-weight: bold;
+    color: #29507b;
+    padding: 10px;
+    background: #efefef;
+  }
+
+  .cf td {
+    font-size: 13px;
+    padding: 10px 25px;
+    background: #f9f9f9;
+  }
+
+  .tariff {
+    overflow-x: hidden;
+  }
+
+  .new_table {
+    margin: -10px;
+  }
+
+}
+
+/*training*/
+
+/* change border radius for the tab , apply corners on top*/
+.training {
+  width: 100%;
+}
+
+#exTab3 .nav-pills > li > a {
+  border-radius: 4px 4px 0 0;
+
+}
+
+#exTab3 {
+  width: 100%;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
+  background: #29507b;
+  color: #fff !important;
+}
+
+#exTab3 .tab-content {
+  border-top: 3px solid #29507b;
+  border-bottom: 2px solid #29507b;
+  color: #333;
+  background: #f9f9f9;
+  padding: 5px 15px;
+  padding: 30px;
+  font-size: 14px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#exTab3 ul li > a:before {
+  background: none;
+}
+
+/*panchakarma_services*/
+.panchakarma_services {
+  padding: 20px;
+}
+
+/*blissful_panchakarma*/
+h1, h2, h3, p {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+body {
+  font: 1em 'Open sans' sans-serif;
+  color: #333;
+}
+
+h1, h2, h4 { /*font-family: 'Open sans';*/
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 3em;
+  line-height: 100%;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.8em;
+  line-height: 100%;
+  padding: 20px 15px;
+}
+
+h4 {
+  font-size: 1.2em;
+  line-height: 100%;
+  background-color: #f2f2f2;
+  padding: 15px;
+  transition: all .2s;
+}
+
+h4 {
+  border-left: 15px solid #690;
+  margin-left: -15px;
+}
+
+h4:hover {
+  border-left-color: #009699;
+}
+
+p {
+  padding: 15px;
+  line-height: 170%;
+}
+
+.box {
+  border-radius: 3px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px #b7b7b7;
+  margin: 30px 30px 60px 30px;
+
+}
+.box ul{
+  padding:0px 20px 20px 40px;
+}
+
+.box1 {
+  border-radius: 3px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px #b7b7b7;
+  margin-bottom: 60px;
+  margin-top: 30px;
+}
+.box1 ul{
+  padding:0px 20px 20px 20px;
+}
+
+.wrapper {
+  background: #f9f9f9;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #29507b;
+}
+@media (min-width: 992px) and (max-width: 1200px){
+  .box{
+    width:40% !important;
+  }
+}
+
+/*blissful*/
+ol{
+  padding:0px 0px 0px 20px;
+}
+/*training*/
+.sub_services{
+  padding: 3px 0px 8px 15px !important;
+}
+
+.panel-info > .panel-heading {
+  color: #31708f;
+  border-color: #fff;
+  border-bottom: none;
+}
+
+.panel-heading {
+  padding: 0px;
+}
+b{
+  color: #1261ad;
+}

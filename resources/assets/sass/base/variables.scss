@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Pacifico|Lobster|Cookie|Oxygen|Ubuntu:300|ABeeZee|Sacramento');
+$color-white: #fafafa;
+$primary-color: #5cbdbf;
+$primary-color-dark: #2783b2;
+$primary-color-team-text:#5a5a5a;
+$primary-color-team: linear-gradient( #1261ad, #51adcf);
+$primary-color-owner:#51adcf;
+$primary-color-quality: #2783b2;
+$primary-color-services:#51adcf;
+$primary-color-contact:#2783b2;
+
+.headingStyle {
+  font-weight: 300;
+  font-size: 2rem;
+  color: #3a3a3a;
+  font-family: "Roboto","serif";
+  margin-bottom: 1.2rem;
+}
+
+hr {
+  margin: 0 0 10px 0px;
+  background: #00ffbe;
+}
+
+.margin-top-huge {
+
+  margin-top: 3rem
+}
+
+.margin-top-medium {
+  margin-top: 2rem
+}
+
+.margin-top-small {
+  margin-top: .5rem
+}
+
+.margin-bottom-huge {
+  margin-bottom: 3rem
+}
+
+.margin-bottom-medium {
+  margin-bottom: 2rem
+}
+
+.margin-bottom-small {
+  margin-bottom: 1rem
+}
+
+.padding-left-small {
+  padding: 0 4rem;
+}
+
+.default-font-size {
+  font-size: 1.4rem;
+  color: #3a3a3a;
+  word-spacing: .6rem;
+  text-align: justify;
+  font-family: "Roboto", "serif";
+}
+
+.justify-content {
+  text-align: justify;
+}
+
+.iconFont {
+  font-size: 2.5rem;
+  margin: 0 1rem 0 0
+}
+
+
+.clearList {
+  margin-left: 2rem;
+  li {
+    cursor: pointer;
+    list-style: none;
+    @include listStyle;
+  }
+}
+
+.footerOwnerDetail {
+  margin-left: 0;
+  @include listStyle;
+}
+
+.location{
+  background-color: $primary-color-contact;
+}
+
+.stickHeaderNav{
+  background: $primary-color-dark;
+  box-shadow: 0 0.5rem 2rem -0.3rem #31669a;
+}
